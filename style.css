@@ -6,6 +6,7 @@ body {
   font-family: helvetica,sans-serif;
   max-width: 1000px;
   text-align: justify;
+  margin-bottom: 5%;
 }
 
 #main_title {
