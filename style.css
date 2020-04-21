@@ -5,64 +5,49 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: helvetica,sans-serif;
-  max-width: 700px;
+  max-width: 1000px;
   text-align: justify;
   text-justify: inter-word;
 }
 
 #main_title {
-  font-size: 80px;
-}
-
-body li {
-  margin-bottom: 0.7vw;
+  font-size: 150px;
 }
 
 header {
-  margin-top: 5%;
-  margin-bottom: 2%;
+  margin-top: 0%;
+  margin-bottom: 100%;
   text-style: bold;
   text-align: center;
 }
 
-h1 {
-  font-size: 3em;
-  word-spacing: 1vw;
-  font-weight: bold;
-}
-
 a {
   color: #000000;
-  font-size: 28px;
+  font-size: 50px;
+  text-decoration: none;
 }
 
 a:hover {
   color: #9c9fa6;
 }
 
+div.section {
+  margin-top: 30%;
+}
+
+div.sub_title {
+  font-size: 50px;
+  text-style: bold;
+  text-align: center;
+}
+
 #content {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
   font-family: helvetica,sans-serif;
   font-size: 22px;
-}
-
-#navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow:hidden;
-}
-
-#navbar li {
-  display: inline;
-}
-
-#navbar li a {
-  padding: 10px;
-}
-
-#break {
-  margin:auto;
-  text-align:center;
 }
 
 /* Style social icons */
