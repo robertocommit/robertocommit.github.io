@@ -36,6 +36,7 @@ div.section {
 }
 
 div.sub_title {
+  margin-bottom: 5%;
   font-size: 50px;
   text-style: bold;
   text-align: center;
@@ -48,6 +49,7 @@ div.sub_title {
   max-width: 700px;
   font-family: helvetica,sans-serif;
   font-size: 22px;
+  line-height: 40px;
 }
 
 /* Style social icons */
