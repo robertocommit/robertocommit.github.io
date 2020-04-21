@@ -10,6 +10,10 @@ body {
   text-justify: inter-word;
 }
 
+#main_title {
+  font-size: 36px;
+}
+
 body li {
   margin-bottom: 0.7vw;
 }
