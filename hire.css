@@ -7,11 +7,26 @@ body {
 	font-family: helvetica,sans-serif;
 }
 
-header {
+@media screen and (min-width: 1024px){
+
+  body {
+    max-width: 1000px;
+  }
+
+  #header_separator {
+    height: 33vh;
+  }
 }
 
-#header_separator {
-	height: 32vh;
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  
+  body {
+    max-width: 350px;
+  }
+
+  #header_separator {
+    height: 33vh;
+  }
 }
 
 #main_title {
