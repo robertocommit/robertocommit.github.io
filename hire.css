@@ -7,7 +7,7 @@ body {
 	font-family: helvetica,sans-serif;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 
   header {
     max-width: 1000px;
@@ -16,10 +16,10 @@ body {
   #header_separator {
     height: 33vh;
   }
+
 }
 
-@media screen and (max-device-width: 480px) and (orientation: portrait){
-  
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
   header {
     max-width: 350px;
   }
@@ -46,9 +46,10 @@ body {
 	text-align: right;
 }
 
-.services {
+.section {
 	font-size: 20px;
 	max-width: 800px;
+	margin-top: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
@@ -62,3 +63,36 @@ body {
 /*
   display: -webkit-flex;
  */
+
+.client-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center
+}
+
+.client-list__item {
+	display: inline-block;
+	padding:12px
+}
+
+@media screen and (min-width: 45em) {
+	.client-list__item {
+		padding:24px
+	}
+}
+
+.client-list__logo {
+	height:24px;
+	transition:0.2s
+}
+
+.client-list__logo:hover {
+	background-color: #808080
+}
+
+@media screen and (min-width: 45em) {
+	.client-list__logo {
+		height: 48px
+	}
+}
