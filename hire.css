@@ -9,7 +9,7 @@ body {
 
 @media screen and (min-width: 1024px){
 
-  body {
+  header {
     max-width: 1000px;
   }
 
@@ -20,7 +20,7 @@ body {
 
 @media screen and (max-device-width: 480px) and (orientation: portrait){
   
-  body {
+  header {
     max-width: 350px;
   }
 
