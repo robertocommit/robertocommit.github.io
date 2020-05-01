@@ -90,11 +90,12 @@ body {
 }
 
 .client-list__logo:hover {
-	background-color: #808080
+	filter: grayscale(0%);
 }
 
 @media screen and (min-width: 45em) {
 	.client-list__logo {
-		height: 48px
+		height: 80px;
+		filter: grayscale(100%);
 	}
-}
+}x
