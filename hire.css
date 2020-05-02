@@ -5,6 +5,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: helvetica,sans-serif;
+	margin-bottom: 15%;
 }
 
 /* Desktop */
@@ -68,35 +69,35 @@ body {
   display: -webkit-flex;
  */
 
-.client-list {
+.icon_list {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-align: center
 }
 
-.client-list__item {
+.icon_list__element {
 	display: inline-block;
 	padding:12px
 }
 
 @media screen and (min-width: 45em) {
-	.client-list__item {
+	.icon_list__element {
 		padding:24px
 	}
 }
 
-.client-list__logo {
+.icon_list__logo {
 	height:24px;
 	transition:0.2s
 }
 
-.client-list__logo:hover {
+.icon_list__logo:hover {
 	filter: grayscale(0%);
 }
 
 @media screen and (min-width: 45em) {
-	.client-list__logo {
+	.icon_list__logo {
 		height: 80px;
 		filter: grayscale(100%);
 	}
