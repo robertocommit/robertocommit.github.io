@@ -7,6 +7,7 @@ body {
 	font-family: helvetica,sans-serif;
 }
 
+/* Desktop */
 @media screen and (min-width: 1024px) {
 
   header {
@@ -19,6 +20,7 @@ body {
 
 }
 
+/* Mobile */
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
   header {
   	margin-left: auto;
