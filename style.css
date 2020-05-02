@@ -87,19 +87,6 @@ a.to_next:hover {
   font-style: oblique;
 }
 
-/* Style social icons */
-.fa {
-  padding: 2px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
 /*
   Everything about icons' list
  */
