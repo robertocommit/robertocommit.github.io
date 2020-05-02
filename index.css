@@ -17,7 +17,7 @@ header {
 /* Desktop */
 @media screen and (min-width: 1024px){
 
-  #header_separator {
+  .header_separator {
     height: 15vh;
   }
 }
@@ -34,12 +34,12 @@ header {
     flex-wrap: wrap;
   }
 
-  #header_separator {
+  .header_separator {
     height: 33vh;
   }
 }
 
-#main_title {
+.main_title {
   font-size: 120px;
   margin-bottom: 3%;
 }
@@ -66,7 +66,7 @@ a:hover {
   text-align: center;
 }
 
-#content {
+.content {
   margin: auto;
   margin-left: auto;
   margin-right: auto;
