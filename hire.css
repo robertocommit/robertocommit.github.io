@@ -5,7 +5,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: helvetica,sans-serif;
-	margin-bottom: 15%;
+	margin-bottom: 20%;
 }
 
 /* Desktop */
@@ -77,7 +77,7 @@ body {
 
 
 /*
-  display: -webkit-flex;
+  Everything about icons' list
  */
 
 .icon_list {
