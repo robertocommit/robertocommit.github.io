@@ -13,7 +13,10 @@ html * {
     height: 33vh;
     text-align: right;
   }
-  .main_title_separator {
+  .main_title_separator__up {
+    height: 33vh;
+  }
+  .main_title_separator__down {
     height: 33vh;
   }
   .h1 {
@@ -44,6 +47,9 @@ html * {
   }
   a.to_next {
     font-size: 50px;
+  }
+  .last_section {
+    margin-bottom: 15% !important;
   }
 
   /* Everything about icons' list */
@@ -93,8 +99,11 @@ html * {
     height: 33vh;
     text-align: right;
   }
-  .main_title_separator {
-    height: 33vh;
+  .main_title_separator__up {
+    height: 15vh;
+  }
+  .main_title_separator__down {
+    height: 40vh;
   }
   .h1 {
     font-size: 65px;
@@ -125,7 +134,9 @@ html * {
   a.to_next {
     font-size: 40px;
   }
-
+  .last_section {
+    margin-bottom: 70% !important;
+  }
   /* Everything about icons' list */
   .icon_list {
     margin: 0;
