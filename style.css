@@ -1,126 +1,173 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
 
-body {
-  max-width: 1000px;
+html * {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20%;
   font-family: helvetica,sans-serif;
 }
 
-/* Desktop */
-@media screen and (min-width: 1024px) {
+/* Device = Desktops --> Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) {
   .main_title {
     max-width: 700px;
     height: 33vh;
     text-align: right;
-    margin-left: auto;
-    margin-right: auto;
   }
   .main_title_separator {
     height: 33vh;
   }
+  .h1 {
+    font-size: 80px;
+  }
+  .h2 {
+    font-size: 60px;
+  }
+  .h3 {
+    font-size: 40px;
+  }
+  .mobile-break {
+    display: none;
+  }
+  .content {
+    max-width: 750px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .section {
+    font-size: 20px;
+    max-width: 800px;
+    margin-top: 50%;
+    margin-bottom: 30%;
+  }
+  .service {
+    margin-bottom: 5%;
+  }
+  a.to_next {
+    font-size: 50px;
+  }
+
+  /* Everything about icons' list */
+  .icon_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+  }
+
+  .icon_list__element {
+    display: inline-block;
+    padding:12px
+  }
+
+  .icon_list__logo {
+    height:50px;
+    transition:0.2s;
+    filter: grayscale(100%);
+  }
+
+  .icon_list__logo:hover {
+    filter: grayscale(0%);
+  }
 }
 
-/* Mobile */
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
+/* Device = Laptops, Desktops --> Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Device = Tablets, Ipads (portrait) --> Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Device = Tablets, Ipads (landscape) --> Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape) --> Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Device = Most of the Smartphones Mobiles (Portrait) --> Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
   .main_title {
-    max-width: 800px;
+    max-width: 700px;
     height: 33vh;
     text-align: right;
   }
   .main_title_separator {
     height: 33vh;
+  }
+  .h1 {
+    font-size: 65px;
+  }
+  .h2 {
+    font-size: 50px;
+  }
+  .h3 {
+    font-size: 30px;
+  }
+  .mobile-break {
+    display: static;
+  }
+  .content {
+    max-width: 95%;
+    font-size: 17px;
+    line-height: 160%;
+  }
+  .section {
+    font-size: 20px;
+    max-width: 90%;
+    margin-top: 50%;
+    margin-bottom: 100%;
+  }
+  .service {
+    margin-bottom: 5%;
+  }
+  a.to_next {
+    font-size: 40px;
+  }
+
+  /* Everything about icons' list */
+  .icon_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+  }
+
+  .icon_list__element {
+    display: inline-block;
+    padding:12px
+  }
+
+  .icon_list__logo {
+    height:24px;
+    transition:0.2s;
+    filter: grayscale(100%);
+  }
+
+  .icon_list__logo:hover {
+    filter: grayscale(0%);
   }
 }
 
 .sub_title {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.h1 {
-  font-size: 80px;
-}
-
-.h2 {
-  font-size: 60px;
-}
-
-.h3 {
-  font-size: 40px;
 }
 
 .content {
-  margin: auto;
-  margin-left: auto;
-  margin-right: auto;
   text-align: justify;
-  max-width: 750px;
-  font-family: helvetica,sans-serif;
-  font-size: 22px;
-  line-height: 40px;
 }
 
 .section {
-  font-size: 20px;
-  max-width: 800px;
-  margin-top: 50%;
-  margin-left: auto;
-  margin-right: auto;
   text-align: justify;
-}
-
-.service {
-  margin-bottom: 5%;
 }
 
 a.to_next {
   color: #000000;
-  font-size: 50px;
   text-decoration: none;
 }
 
 a.to_next:hover {
   color: #9c9fa6;
   font-style: oblique;
-}
-
-/*
-  Everything about icons' list
- */
-
-.icon_list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center
-}
-
-.icon_list__element {
-  display: inline-block;
-  padding:12px
-}
-
-@media screen and (min-width: 45em) {
-  .icon_list__element {
-    padding:24px
-  }
-}
-
-.icon_list__logo {
-  height:24px;
-  transition:0.2s
-}
-
-.icon_list__logo:hover {
-  filter: grayscale(0%);
-}
-
-@media screen and (min-width: 45em) {
-  .icon_list__logo {
-    height: 80px;
-    filter: grayscale(100%);
-  }
 }
