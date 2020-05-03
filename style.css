@@ -78,18 +78,281 @@ html * {
 
 /* Device = Laptops, Desktops --> Screen = B/w 1025px to 1280px */
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .main_title {
+    max-width: 700px;
+    height: 33vh;
+    text-align: right;
+  }
+  .main_title_separator__up {
+    height: 33vh;
+  }
+  .main_title_separator__down {
+    height: 33vh;
+  }
+  .h1 {
+    font-size: 80px;
+  }
+  .h2 {
+    font-size: 60px;
+  }
+  .h3 {
+    font-size: 40px;
+  }
+  .mobile-break {
+    display: none;
+  }
+  .content {
+    max-width: 750px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .section {
+    font-size: 20px;
+    max-width: 800px;
+    margin-top: 50%;
+    margin-bottom: 30%;
+  }
+  .service {
+    margin-bottom: 5%;
+  }
+  a.to_next {
+    font-size: 50px;
+  }
+  .last_section {
+    margin-bottom: 15% !important;
+  }
+
+  /* Everything about icons' list */
+  .icon_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+  }
+
+  .icon_list__element {
+    display: inline-block;
+    padding:12px
+  }
+
+  .icon_list__logo {
+    height:50px;
+    transition:0.2s;
+    filter: grayscale(100%);
+  }
+
+  .icon_list__logo:hover {
+    filter: grayscale(0%);
+  }
 }
 
 /* Device = Tablets, Ipads (portrait) --> Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .main_title {
+    max-width: 700px;
+    height: 33vh;
+    text-align: right;
+  }
+  .main_title_separator__up {
+    height: 33vh;
+  }
+  .main_title_separator__down {
+    height: 33vh;
+  }
+  .h1 {
+    font-size: 80px;
+  }
+  .h2 {
+    font-size: 60px;
+  }
+  .h3 {
+    font-size: 40px;
+  }
+  .mobile-break {
+    display: none;
+  }
+  .content {
+    max-width: 750px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .section {
+    font-size: 20px;
+    max-width: 800px;
+    margin-top: 50%;
+    margin-bottom: 30%;
+  }
+  .service {
+    margin-bottom: 5%;
+  }
+  a.to_next {
+    font-size: 50px;
+  }
+  .last_section {
+    margin-bottom: 15% !important;
+  }
+
+  /* Everything about icons' list */
+  .icon_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+  }
+
+  .icon_list__element {
+    display: inline-block;
+    padding:12px
+  }
+
+  .icon_list__logo {
+    height:50px;
+    transition:0.2s;
+    filter: grayscale(100%);
+  }
+
+  .icon_list__logo:hover {
+    filter: grayscale(0%);
+  }
 }
 
 /* Device = Tablets, Ipads (landscape) --> Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .main_title {
+    max-width: 700px;
+    height: 33vh;
+    text-align: right;
+  }
+  .main_title_separator__up {
+    height: 33vh;
+  }
+  .main_title_separator__down {
+    height: 33vh;
+  }
+  .h1 {
+    font-size: 80px;
+  }
+  .h2 {
+    font-size: 60px;
+  }
+  .h3 {
+    font-size: 40px;
+  }
+  .mobile-break {
+    display: none;
+  }
+  .content {
+    max-width: 750px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .section {
+    font-size: 20px;
+    max-width: 800px;
+    margin-top: 50%;
+    margin-bottom: 30%;
+  }
+  .service {
+    margin-bottom: 5%;
+  }
+  a.to_next {
+    font-size: 50px;
+  }
+  .last_section {
+    margin-bottom: 15% !important;
+  }
+
+  /* Everything about icons' list */
+  .icon_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+  }
+
+  .icon_list__element {
+    display: inline-block;
+    padding:12px
+  }
+
+  .icon_list__logo {
+    height:50px;
+    transition:0.2s;
+    filter: grayscale(100%);
+  }
+
+  .icon_list__logo:hover {
+    filter: grayscale(0%);
+  }
 }
 
 /* Device = Low Resolution Tablets, Mobiles (Landscape) --> Screen = B/w 481px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
+  .main_title {
+    max-width: 700px;
+    height: 33vh;
+    text-align: right;
+  }
+  .main_title_separator__up {
+    height: 15vh;
+  }
+  .main_title_separator__down {
+    height: 40vh;
+  }
+  .h1 {
+    font-size: 65px;
+  }
+  .h2 {
+    font-size: 50px;
+  }
+  .h3 {
+    font-size: 30px;
+  }
+  .mobile-break {
+    display: static;
+  }
+  .content {
+    max-width: 95%;
+    font-size: 17px;
+    line-height: 160%;
+  }
+  .section {
+    font-size: 20px;
+    max-width: 90%;
+    margin-top: 50%;
+    margin-bottom: 100%;
+  }
+  .service {
+    margin-bottom: 5%;
+  }
+  a.to_next {
+    font-size: 40px;
+  }
+  .last_section {
+    margin-bottom: 40% !important;
+  }
+  /* Everything about icons' list */
+  .icon_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+  }
+
+  .icon_list__element {
+    display: inline-block;
+    padding:12px
+  }
+
+  .icon_list__logo {
+    height:24px;
+    transition:0.2s;
+    filter: grayscale(100%);
+  }
+
+  .icon_list__logo:hover {
+    filter: grayscale(0%);
+  }
 }
 
 /* Device = Most of the Smartphones Mobiles (Portrait) --> Screen = B/w 320px to 479px */
@@ -160,6 +423,8 @@ html * {
     filter: grayscale(0%);
   }
 }
+
+/* Common CSS across resolutions */
 
 .sub_title {
   text-align: center;
