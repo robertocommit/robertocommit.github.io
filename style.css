@@ -6,6 +6,30 @@ html * {
   font-family: helvetica,sans-serif;
 }
 
+/* Common CSS across resolutions */
+
+.sub_title {
+  text-align: center;
+}
+
+.content {
+  text-align: justify;
+}
+
+.section {
+  text-align: justify;
+}
+
+a.to_next {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.to_next:hover {
+  color: #9c9fa6;
+  font-style: oblique;
+}
+
 /* Device = Desktops --> Screen = 1281px to higher resolution desktops */
 @media (min-width: 1281px) {
   .main_title {
@@ -422,28 +446,4 @@ html * {
   .icon_list__logo:hover {
     filter: grayscale(0%);
   }
-}
-
-/* Common CSS across resolutions */
-
-.sub_title {
-  text-align: center;
-}
-
-.content {
-  text-align: justify;
-}
-
-.section {
-  text-align: justify;
-}
-
-a.to_next {
-  color: #000000;
-  text-decoration: none;
-}
-
-a.to_next:hover {
-  color: #9c9fa6;
-  font-style: oblique;
 }
