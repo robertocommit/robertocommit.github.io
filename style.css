@@ -76,6 +76,10 @@ a.to_next:hover {
     margin-bottom: 15% !important;
   }
 
+  .bottom_space {
+    margin-bottom: 10%;
+  }
+
   /* Everything about icons' list */
   .icon_list {
     margin: 0;
@@ -145,6 +149,11 @@ a.to_next:hover {
   .last_section {
     margin-bottom: 15% !important;
   }
+
+  .bottom_space {
+    margin-bottom: 10%;
+  }
+
 
   /* Everything about icons' list */
   .icon_list {
@@ -216,6 +225,11 @@ a.to_next:hover {
     margin-bottom: 15% !important;
   }
 
+  .bottom_space {
+    margin-bottom: 20%;
+  }
+
+
   /* Everything about icons' list */
   .icon_list {
     margin: 0;
@@ -286,6 +300,11 @@ a.to_next:hover {
     margin-bottom: 15% !important;
   }
 
+  .bottom_space {
+    margin-bottom: 20%;
+  }
+
+
   /* Everything about icons' list */
   .icon_list {
     margin: 0;
@@ -355,6 +374,11 @@ a.to_next:hover {
   .last_section {
     margin-bottom: 40% !important;
   }
+
+  .bottom_space {
+    margin-bottom: 20%;
+  }
+
   /* Everything about icons' list */
   .icon_list {
     margin: 0;
@@ -424,6 +448,85 @@ a.to_next:hover {
   .last_section {
     margin-bottom: 70% !important;
   }
+
+  .bottom_space {
+    margin-bottom: 20%;
+  }
+
+  /* Everything about icons' list */
+  .icon_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+  }
+
+  .icon_list__element {
+    display: inline-block;
+    padding:12px
+  }
+
+  .icon_list__logo {
+    height:24px;
+    transition:0.2s;
+    filter: grayscale(100%);
+  }
+
+  .icon_list__logo:hover {
+    filter: grayscale(0%);
+  }
+}
+
+/* Device = Smallest devices out there */
+@media (max-width: 320px) {
+  .main_title {
+    max-width: 500px;
+    height: 33vh;
+    text-align: right;
+  }
+  .main_title_separator__up {
+    height: 40vh;
+  }
+  .main_title_separator__down {
+    height: 60vh;
+  }
+  .h1 {
+    font-size: 45px;
+  }
+  .h2 {
+    font-size: 30px;
+  }
+  .h3 {
+    font-size: 15px;
+  }
+  .mobile-break {
+    display: static;
+  }
+  .content {
+    max-width: 95%;
+    font-size: 17px;
+    line-height: 160%;
+  }
+  .section {
+    font-size: 20px;
+    max-width: 90%;
+    margin-top: 50%;
+    margin-bottom: 100%;
+  }
+  .service {
+    margin-bottom: 5%;
+  }
+  a.to_next {
+    font-size: 40px;
+  }
+  .last_section {
+    margin-bottom: 70% !important;
+  }
+
+  .bottom_space {
+    margin-bottom: 20%;
+  }
+
   /* Everything about icons' list */
   .icon_list {
     margin: 0;
