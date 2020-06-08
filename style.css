@@ -20,6 +20,11 @@ html * {
   text-align: justify;
 }
 
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 a.to_next {
   color: #000000;
   text-decoration: none;
