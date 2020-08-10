@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P8DTWSF');</script>
+    <!-- End Google Tag Manager -->
+    <title>Thoughts - Something more personal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Work" content="Build a better version of your company">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+    <link rel="stylesheet" href="style.css"/>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165277063-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-165277063-1');
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8DTWSF"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="main_title_separator__up"></div>
+    <div class="main_title h1">
+      <b>Thoughts</b>
+    </div>
+    <div class="section">
+      <div class="sub_title h2">
+        <b>Writing</b>
+      </div>
+      <div class="thoughts_date_place"><i>10/08/2020 ~ Messina ~ <span id="countWords1"></span> words</i></div>
+      <div class="content content_blog" id="thoughts1">
+        The beauty and importance of writing by hand is still unbeatable, however, whether they are manual or digital, the triggered mental mechanisms are almost the same.
+
+        Writing following a rigid apporach: one argument, one hundred words, seamlessly picking a topic of which there is a natural desire to talk about.
+
+        These limitations to teach specificness, without wasting resources decorating superficialities. Words are precious, they must be used with care.
+
+        Repeating this activity will help developing many important skills, in addition to a good collection of reflections which might be useful for a future version of yourself.
+      </div>
+    </div>
+    <script type="text/javascript">
+      window.onload = function() {
+        var thoughts = document.querySelectorAll('[id^="thoughts"]');
+        for (var i = 0; i < thoughts.length; i++) {
+          var idFrom = thoughts[i].id;
+          var counter = idFrom.replace("thoughts", "");
+          var idTo = "countWords" + counter;
+          get_text(idFrom, idTo);
+        }
+      };
+      function get_text(idFrom, idTo) {
+          count = document.getElementById(idFrom).innerHTML.replace(/[^a-zA-Z ]/g, "").replace(/  +/g, ' ').split(" ").length;
+          var output = document.getElementById(idTo);
+          output.innerHTML = count;
+      }
+    </script>
+  </body>
+</html>

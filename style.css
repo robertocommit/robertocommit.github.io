@@ -35,6 +35,19 @@ a.to_next:hover {
   font-style: oblique;
 }
 
+/* Blog section */
+
+.thoughts_date_place {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.content.content_blog {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* Device = Desktops --> Screen = 1281px to higher resolution desktops */
 @media (min-width: 1281px) {
   .main_title {
